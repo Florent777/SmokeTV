@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmokeTV</string>
+    <string name="redirect_label">SmokeTV Home button redirect</string>
+    <string name="redirect_desc">Brings SmokeTV back when the Home button opens Amazon\'s home screen.</string>
+</resources>
