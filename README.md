@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo.svg" alt="SmokeTV" width="640">
+  <img src="docs/logo.png" alt="SmokeTV" width="640">
 </p>
 
 <p align="center">
@@ -166,7 +166,7 @@ app/src/main/java/io/github/florent777/smoketv/
 - The Fire OS home-takeover tricks (alarm launch, cover window, Amazon's home activity name) were learned from
   [dumbtv](https://github.com/humblemuzzu/dumbtv) (MIT). SmokeTV's code is its own.
 - Weather by [Open-Meteo](https://open-meteo.com).
-- Logo wordmark from Roboto Bold; UI icons and the game controller from Material Icons (both Apache 2.0).
+- Logo set in Roboto Bold; UI icons and the game controller from Material Icons (both Apache 2.0).
 
 ## License
 
