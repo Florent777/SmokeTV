@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>A 70&nbsp;KB home screen for the Amazon Fire TV Stick.</b><br>
+  <b>A sub-100&nbsp;KB home screen for the Amazon Fire TV Stick.</b><br>
   No ads. No carousel. No "sponsored" row. Just your apps, a sky full of stars, and the show you were watching.
 </p>
 
@@ -21,7 +21,7 @@ that drifts sideways as you move through the row.
 
 It is written from scratch in plain Kotlin on the classic Android View system.
 **Zero dependencies**: no AndroidX, no Leanback, no Compose, no Glide, no Retrofit.
-The whole release APK, icons, wallpaper engine and web server included, is about **70 KB**.
+The whole release APK, icons, wallpaper engine and web server included, is about **95 KB**.
 
 | | |
 |---|---|
@@ -86,9 +86,9 @@ A frame only *translates* them, at five different speeds, as your focus moves al
 address. Open it on your phone, pick a photo, and the page downsizes it **in your browser** to 1080p before sending it.
 The server checks it really is an image, swaps the wallpaper, and shuts down when you close the panel.
 
-### 6. Fitting in 70 KB
+### 6. Fitting in under 100 KB
 
-Framework views only, `SharedPreferences`, `HttpURLConnection`, `org.json`, `LruCache`, vector drawables, and R8 with resource shrinking.
+Framework views only, vector UI icons, palette-reduced PNGs for the logo, `SharedPreferences`, `HttpURLConnection`, `org.json`, `LruCache`, and R8 with resource shrinking.
 The Kotlin standard library is the only thing that isn't Android, and R8 trims it down to the few functions actually used.
 
 ## Install
